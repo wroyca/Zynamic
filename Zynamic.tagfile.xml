@@ -1,0 +1,310 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
+<tagfile>
+  <compound kind="file">
+    <name>main.cpp</name>
+    <filename>main_8cpp.html</filename>
+    <namespace>Zynamic</namespace>
+    <namespace>Zynamic::Dia</namespace>
+    <namespace>Zynamic::Dia::Zydis</namespace>
+    <member kind="define">
+      <type>#define</type>
+      <name>OPCODE_CALL</name>
+      <anchorfile>main_8cpp.html</anchorfile>
+      <anchor>ac89dc71ec4050014af810064f73855fe</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="typedef">
+      <type>std::optional&lt; std::reference_wrapper&lt; T &gt; &gt;</type>
+      <name>as_ref</name>
+      <anchorfile>namespace_zynamic_1_1_dia.html</anchorfile>
+      <anchor>a4ec7172c8ac136220632bf9927b5e206</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="typedef">
+      <type>std::unordered_map&lt; unsigned long, std::wstring &gt;</type>
+      <name>unordered_map</name>
+      <anchorfile>namespace_zynamic_1_1_dia.html</anchorfile>
+      <anchor>af711cb3144f273b8e46a5407ae30fff5</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="typedef">
+      <type>std::unordered_map&lt; std::wstring, unsigned long &gt;</type>
+      <name>unordered_map_reverse</name>
+      <anchorfile>namespace_zynamic_1_1_dia.html</anchorfile>
+      <anchor>a64a6db61ba2dccaad1aaded4cea76097</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumeration">
+      <type></type>
+      <name>Operand</name>
+      <anchorfile>namespace_zynamic_1_1_dia_1_1_zydis.html</anchorfile>
+      <anchor>aa4bcd90b0ff83a22a18b8badefd70875</anchor>
+      <arglist></arglist>
+      <enumvalue file="namespace_zynamic_1_1_dia_1_1_zydis.html" anchor="aa4bcd90b0ff83a22a18b8badefd70875ab51ca26c6c89cfc9bec338f7a0d3e0c8">Absolute</enumvalue>
+      <enumvalue file="namespace_zynamic_1_1_dia_1_1_zydis.html" anchor="aa4bcd90b0ff83a22a18b8badefd70875a43f6615bbb2c40a5306ff804094420b1">Immediate</enumvalue>
+      <enumvalue file="namespace_zynamic_1_1_dia_1_1_zydis.html" anchor="aa4bcd90b0ff83a22a18b8badefd70875a0ba7583639a274c434bbe6ef797115a4">Register</enumvalue>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>__declspec</name>
+      <anchorfile>main_8cpp.html</anchorfile>
+      <anchor>a570c116f68e119503ef711951cf1962a</anchor>
+      <arglist>(thread) char zynamic_thread_local_storage[0x10000]</arglist>
+    </member>
+    <member kind="function">
+      <type>auto</type>
+      <name>ZydisBind</name>
+      <anchorfile>namespace_zynamic_1_1_dia_1_1_zydis.html</anchorfile>
+      <anchor>a981d4dd538c6ce1e8322b0cf881b68ef</anchor>
+      <arglist>(const unsigned long source, unsigned char *destination) -&gt; void</arglist>
+    </member>
+    <member kind="function">
+      <type>auto</type>
+      <name>ZydisBind</name>
+      <anchorfile>namespace_zynamic_1_1_dia_1_1_zydis.html</anchorfile>
+      <anchor>ab459f568709d78df15bbe53c98f6b7f7</anchor>
+      <arglist>(const unsigned long source, unsigned long destination, const unsigned long zydis_extended_instruction_pointer)</arglist>
+    </member>
+    <member kind="function">
+      <type>auto</type>
+      <name>ZydisDecodeAbsolute</name>
+      <anchorfile>namespace_zynamic_1_1_dia_1_1_zydis.html</anchorfile>
+      <anchor>a2691adc2dec6cf830b2953619610dc5e</anchor>
+      <arglist>(const ZydisFormatter *formatter, ZydisFormatterBuffer *buffer, ZydisFormatterContext *context) -&gt; ZyanStatus</arglist>
+    </member>
+    <member kind="function">
+      <type>auto</type>
+      <name>ZydisDecodeImmediate</name>
+      <anchorfile>namespace_zynamic_1_1_dia_1_1_zydis.html</anchorfile>
+      <anchor>ada9716e4c0236f85b0d1b0810618fd4d</anchor>
+      <arglist>(const ZydisFormatter *formatter, ZydisFormatterBuffer *buffer, ZydisFormatterContext *context) -&gt; ZyanStatus</arglist>
+    </member>
+    <member kind="function">
+      <type>auto</type>
+      <name>ZydisDecodeRegister</name>
+      <anchorfile>namespace_zynamic_1_1_dia_1_1_zydis.html</anchorfile>
+      <anchor>acec5948a6adcaf22f794661aae0cc969</anchor>
+      <arglist>(const ZydisFormatter *formatter, ZydisFormatterBuffer *buffer, ZydisFormatterContext *context) -&gt; ZyanStatus</arglist>
+    </member>
+    <member kind="function">
+      <type>auto</type>
+      <name>ZydisDecode</name>
+      <anchorfile>namespace_zynamic_1_1_dia_1_1_zydis.html</anchorfile>
+      <anchor>a590f8b9c943a528854b7c7d70d73d328</anchor>
+      <arglist>(ZyanU64 address, ZyanUSize length, Operand operand)</arglist>
+    </member>
+    <member kind="function">
+      <type>auto</type>
+      <name>load</name>
+      <anchorfile>namespace_zynamic_1_1_dia.html</anchorfile>
+      <anchor>ab39abe5764051198f05f2345302ab435</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function">
+      <type>auto</type>
+      <name>load</name>
+      <anchorfile>namespace_zynamic.html</anchorfile>
+      <anchor>ae7445e1f78303b336978b89c00d1ca3e</anchor>
+      <arglist>(std::vector&lt; char &gt; pe)</arglist>
+    </member>
+    <member kind="function">
+      <type>auto</type>
+      <name>main</name>
+      <anchorfile>main_8cpp.html</anchorfile>
+      <anchor>a8216c1645620cdb2f629cde3ac02ffef</anchor>
+      <arglist>() -&gt; int</arglist>
+    </member>
+    <member kind="variable">
+      <type>char</type>
+      <name>zynamic</name>
+      <anchorfile>main_8cpp.html</anchorfile>
+      <anchor>a85d562e096a97233b052d335cf86259a</anchor>
+      <arglist>[0x0A000000 *2]</arglist>
+    </member>
+    <member kind="variable">
+      <type>unordered_map</type>
+      <name>get_src_symbol_by_address</name>
+      <anchorfile>namespace_zynamic_1_1_dia.html</anchorfile>
+      <anchor>a7bfd4fefeab2f14cece9e554ca5b110f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>unordered_map_reverse</type>
+      <name>get_dst_symbol_by_name</name>
+      <anchorfile>namespace_zynamic_1_1_dia.html</anchorfile>
+      <anchor>aca9ba79952c1e8f26abaa1c5bde8f1e1</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>ZydisFormatterFunc</type>
+      <name>ZydisDecodeAbsoluteHook</name>
+      <anchorfile>namespace_zynamic_1_1_dia_1_1_zydis.html</anchorfile>
+      <anchor>a79dd9ac2e119cc575b50a1ca66de5bbb</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>ZydisFormatterFunc</type>
+      <name>ZydisDecodeImmediateHook</name>
+      <anchorfile>namespace_zynamic_1_1_dia_1_1_zydis.html</anchorfile>
+      <anchor>a15315b6709b6672574bdc92e0ae5a4a7</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>ZydisFormatterFunc</type>
+      <name>ZydisDecodeRegisterHook</name>
+      <anchorfile>namespace_zynamic_1_1_dia_1_1_zydis.html</anchorfile>
+      <anchor>a6661b8c800bf831f86b41e66fe866ca0</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>ZyanU64</type>
+      <name>ZydisRuntimeAddress</name>
+      <anchorfile>namespace_zynamic_1_1_dia_1_1_zydis.html</anchorfile>
+      <anchor>a3b97a0f1f44753d7ab8dd44eebcfae5f</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="namespace">
+    <name>Zynamic</name>
+    <filename>namespace_zynamic.html</filename>
+    <namespace>Zynamic::Dia</namespace>
+    <member kind="function">
+      <type>auto</type>
+      <name>load</name>
+      <anchorfile>namespace_zynamic.html</anchorfile>
+      <anchor>ae7445e1f78303b336978b89c00d1ca3e</anchor>
+      <arglist>(std::vector&lt; char &gt; pe)</arglist>
+    </member>
+  </compound>
+  <compound kind="namespace">
+    <name>Zynamic::Dia</name>
+    <filename>namespace_zynamic_1_1_dia.html</filename>
+    <namespace>Zynamic::Dia::Zydis</namespace>
+    <member kind="typedef">
+      <type>std::optional&lt; std::reference_wrapper&lt; T &gt; &gt;</type>
+      <name>as_ref</name>
+      <anchorfile>namespace_zynamic_1_1_dia.html</anchorfile>
+      <anchor>a4ec7172c8ac136220632bf9927b5e206</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="typedef">
+      <type>std::unordered_map&lt; unsigned long, std::wstring &gt;</type>
+      <name>unordered_map</name>
+      <anchorfile>namespace_zynamic_1_1_dia.html</anchorfile>
+      <anchor>af711cb3144f273b8e46a5407ae30fff5</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="typedef">
+      <type>std::unordered_map&lt; std::wstring, unsigned long &gt;</type>
+      <name>unordered_map_reverse</name>
+      <anchorfile>namespace_zynamic_1_1_dia.html</anchorfile>
+      <anchor>a64a6db61ba2dccaad1aaded4cea76097</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="function">
+      <type>auto</type>
+      <name>load</name>
+      <anchorfile>namespace_zynamic_1_1_dia.html</anchorfile>
+      <anchor>ab39abe5764051198f05f2345302ab435</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="variable">
+      <type>unordered_map</type>
+      <name>get_src_symbol_by_address</name>
+      <anchorfile>namespace_zynamic_1_1_dia.html</anchorfile>
+      <anchor>a7bfd4fefeab2f14cece9e554ca5b110f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>unordered_map_reverse</type>
+      <name>get_dst_symbol_by_name</name>
+      <anchorfile>namespace_zynamic_1_1_dia.html</anchorfile>
+      <anchor>aca9ba79952c1e8f26abaa1c5bde8f1e1</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="namespace">
+    <name>Zynamic::Dia::Zydis</name>
+    <filename>namespace_zynamic_1_1_dia_1_1_zydis.html</filename>
+    <member kind="enumeration">
+      <type></type>
+      <name>Operand</name>
+      <anchorfile>namespace_zynamic_1_1_dia_1_1_zydis.html</anchorfile>
+      <anchor>aa4bcd90b0ff83a22a18b8badefd70875</anchor>
+      <arglist></arglist>
+      <enumvalue file="namespace_zynamic_1_1_dia_1_1_zydis.html" anchor="aa4bcd90b0ff83a22a18b8badefd70875ab51ca26c6c89cfc9bec338f7a0d3e0c8">Absolute</enumvalue>
+      <enumvalue file="namespace_zynamic_1_1_dia_1_1_zydis.html" anchor="aa4bcd90b0ff83a22a18b8badefd70875a43f6615bbb2c40a5306ff804094420b1">Immediate</enumvalue>
+      <enumvalue file="namespace_zynamic_1_1_dia_1_1_zydis.html" anchor="aa4bcd90b0ff83a22a18b8badefd70875a0ba7583639a274c434bbe6ef797115a4">Register</enumvalue>
+    </member>
+    <member kind="function">
+      <type>auto</type>
+      <name>ZydisBind</name>
+      <anchorfile>namespace_zynamic_1_1_dia_1_1_zydis.html</anchorfile>
+      <anchor>a981d4dd538c6ce1e8322b0cf881b68ef</anchor>
+      <arglist>(const unsigned long source, unsigned char *destination) -&gt; void</arglist>
+    </member>
+    <member kind="function">
+      <type>auto</type>
+      <name>ZydisBind</name>
+      <anchorfile>namespace_zynamic_1_1_dia_1_1_zydis.html</anchorfile>
+      <anchor>ab459f568709d78df15bbe53c98f6b7f7</anchor>
+      <arglist>(const unsigned long source, unsigned long destination, const unsigned long zydis_extended_instruction_pointer)</arglist>
+    </member>
+    <member kind="function">
+      <type>auto</type>
+      <name>ZydisDecodeAbsolute</name>
+      <anchorfile>namespace_zynamic_1_1_dia_1_1_zydis.html</anchorfile>
+      <anchor>a2691adc2dec6cf830b2953619610dc5e</anchor>
+      <arglist>(const ZydisFormatter *formatter, ZydisFormatterBuffer *buffer, ZydisFormatterContext *context) -&gt; ZyanStatus</arglist>
+    </member>
+    <member kind="function">
+      <type>auto</type>
+      <name>ZydisDecodeImmediate</name>
+      <anchorfile>namespace_zynamic_1_1_dia_1_1_zydis.html</anchorfile>
+      <anchor>ada9716e4c0236f85b0d1b0810618fd4d</anchor>
+      <arglist>(const ZydisFormatter *formatter, ZydisFormatterBuffer *buffer, ZydisFormatterContext *context) -&gt; ZyanStatus</arglist>
+    </member>
+    <member kind="function">
+      <type>auto</type>
+      <name>ZydisDecodeRegister</name>
+      <anchorfile>namespace_zynamic_1_1_dia_1_1_zydis.html</anchorfile>
+      <anchor>acec5948a6adcaf22f794661aae0cc969</anchor>
+      <arglist>(const ZydisFormatter *formatter, ZydisFormatterBuffer *buffer, ZydisFormatterContext *context) -&gt; ZyanStatus</arglist>
+    </member>
+    <member kind="function">
+      <type>auto</type>
+      <name>ZydisDecode</name>
+      <anchorfile>namespace_zynamic_1_1_dia_1_1_zydis.html</anchorfile>
+      <anchor>a590f8b9c943a528854b7c7d70d73d328</anchor>
+      <arglist>(ZyanU64 address, ZyanUSize length, Operand operand)</arglist>
+    </member>
+    <member kind="variable">
+      <type>ZydisFormatterFunc</type>
+      <name>ZydisDecodeAbsoluteHook</name>
+      <anchorfile>namespace_zynamic_1_1_dia_1_1_zydis.html</anchorfile>
+      <anchor>a79dd9ac2e119cc575b50a1ca66de5bbb</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>ZydisFormatterFunc</type>
+      <name>ZydisDecodeImmediateHook</name>
+      <anchorfile>namespace_zynamic_1_1_dia_1_1_zydis.html</anchorfile>
+      <anchor>a15315b6709b6672574bdc92e0ae5a4a7</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>ZydisFormatterFunc</type>
+      <name>ZydisDecodeRegisterHook</name>
+      <anchorfile>namespace_zynamic_1_1_dia_1_1_zydis.html</anchorfile>
+      <anchor>a6661b8c800bf831f86b41e66fe866ca0</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>ZyanU64</type>
+      <name>ZydisRuntimeAddress</name>
+      <anchorfile>namespace_zynamic_1_1_dia_1_1_zydis.html</anchorfile>
+      <anchor>a3b97a0f1f44753d7ab8dd44eebcfae5f</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+</tagfile>
