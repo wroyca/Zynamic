@@ -1,5 +1,7 @@
 # Zynamic
-Zynamic uses Zydis, Microsoft PDB and Reflective PE loading to automatically substitute symbols in a given binary at runtime.
+Dynamic binary rewriting with Zydis and Microsoft PDB.
+
+This is an experimental branch. Do not use it. 
 
 ## Credits
 - `Zydis` — *Fast and lightweight x86/x86-64 disassembler and code generation library*
